@@ -25,6 +25,31 @@ public class Student {
 	private String gender;
 	private String courses;
 	
+		public LocalDate getDob() {
+		return dob;
+	}
+	public void setDob(LocalDate dob) {
+		this.dob = dob;
+	}
+	public String getEmailId() {
+		return emailId;
+	}
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String getCourses() {
+		return courses;
+	}
+	public void setCourses(String courses) {
+		this.courses = courses;
+	}
+	
 	public int getRollNo() {
 		return rollNo;
 	}
@@ -43,36 +68,13 @@ public class Student {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public LocalDate getDob() {
-		return dob;
-	}
-	public void setDob(LocalDate dob) {
-		this.dob = dob;
-	}
-	public String getEmailId() {
-		return emailId;
-	}
-	public void setEmailId(String emailId) {
-		this.emailId = emailId;
-	}
 	public String getAddress() {
 		return address;
 	}
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public String getGender() {
-		return gender;
-	}
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
-	public String getCourses() {
-		return courses;
-	}
-	public void setCourses(String courses) {
-		this.courses = courses;
-	}
+	
 	
 
 }

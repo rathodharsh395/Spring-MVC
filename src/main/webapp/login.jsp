@@ -8,7 +8,6 @@
 </head>
 <center>
 <body bgcolor= "SkyBlue">
-
 <img src="https://149722474.v2.pressablecdn.com/wp-content/uploads/2022/02/Social-Media.gif" height="170" width="200" alt="spring inside"> </a> 
 <h1>Student Login Page</h1>
 <form action="SecondServlet">
@@ -20,7 +19,9 @@ password:<input type="password" name="p2"><br>
 <input type="reset" >
 
 </form>
+
 <a href="ForgetPassword">FogetPassword</a>
+
 <body>
 </center>
 </body>

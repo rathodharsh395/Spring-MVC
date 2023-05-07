@@ -90,6 +90,16 @@ public class SecondServlet extends HttpServlet {
 			response.sendRedirect("login.jsp");
 		}
 		//pw.println("your password is"+ " "+ password);
+	/*	response.setContentType("text/html");
+		PrintWriter out=response.getWriter();
+		String uname=request.getAttribute("user-name").toString();
+		String password=request.getAttribute("user-pass").toString();
+		
+		out.println("<h2>Congratulation</h2>"+" "+uname);
+		out.println("login with"+" "+password);
+		out.println("<a href='login.jsp'>Login Here</a>");
+		*/
+		
 		
 		
 	}

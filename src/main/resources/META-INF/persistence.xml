@@ -9,7 +9,7 @@
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" /> <!-- DB Driver -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/spring_01" /> <!-- BD Mane -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/spring_01" /> <!-- DB Name -->
             <property name="javax.persistence.jdbc.user" value="root" /> <!-- DB User -->
             <property name="javax.persistence.jdbc.password" value="HRathod395" /> <!-- DB Password -->
 
